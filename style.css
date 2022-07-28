@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans:wght@300&family=Poppins:wght@100&family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: palegoldenrod;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+}
+
+nav ul li{
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.brand img{
+
+    width: 40px;
+    align-items: center;
+    padding: 0 5px;
+
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 52.5vh;
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    
+}
+
+.bottom{
+    height: 100px;
+    position: sticky;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    padding: 0%;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 60px;
+    display: flex;
+    color: black;
+    background-color: white;
+    justify-content: space-between;
+    /* text-align: center; */
+    align-items: center;
+    /* width: 110%; */
+    margin: 12px 0;
+    border-radius: 12px;
+}
+
+.songItem img{
+    height: 50px;
+    margin: 4px 10px;
+    border-radius: 30px;
+}
+
+.songlistplay{
+    display: flex;
+    align-items: center;
+}
+
+.timestamp{
+    padding: 18px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 21vh;
+}
+
+.songinfo img{
+    height: 20px;
+    margin-top: 10px ;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
